@@ -1,0 +1,53 @@
+url			: "https://ifup-eth0.com"
+baseurl			: ""
+
+title			: Aidil Putra
+author			: Aidil Putra
+copyright		: aidil
+
+email			: aidil@ifup-eth0.com
+twitter_username	: aidil_chaniagoo
+github_username		: aidilchaniagoo
+instagram_username	: aidilchaniagoo
+googleplus_id		: test
+facebook_id		: chaniagoo1
+tracking_id		: test
+
+
+site_heading		: Aidil <span class="faded">'s blog</span>
+description		: accent is, as Trump would put it, the best
+about_stub		: Keep this sentence less than 13 words or it won't look good.
+
+profile_picture		: images/temp.png
+paginate		: 5
+paginate_path		: "/page/:num"
+
+og_image		: "images/accent.png"
+twitter_image		: "http://ankitsultana.com/images/accent.png?1234" 
+
+comments		: true
+permalink		: /:title.html
+about_footer		: true
+
+
+markdown		: kramdown
+plugins			: ['jekyll-paginate']
+sass:
+    style: compressed
+    sass_dir: _sass
+
+defaults		:
+    -
+        scope:
+            path:   ""
+            type:   "pages"
+        values:
+            layout: "page"
+    -
+        scope:
+            path:   ""
+            type:   "posts"
+        values:
+            layout: "post"
+
+exclude			: ['vendor', 'LICENSE', 'README.md']
