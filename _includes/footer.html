@@ -1,13 +1,6 @@
 <footer>
     {% include paginate.html %}
     {% include suggestion.html %}
-    {% if page.url == "/about" or paginator.total_pages == 1 or page.url == "/404" %}
-        <div class="container" style="text-align: center; margin-bottom: 20px">
-            <a target="_blank" class="button" href="https://twitter.com/{{ site.twitter_username }}">
-                Follow me on twitter
-            </a>
-        </div>
-    {% endif %}
     <hr />
     <div class="user-footer">
         <div class="copyright alignable pull-left">
@@ -25,7 +18,11 @@
             <a href="mailto:{{ site.email }}" class="button">
                 mail
             </a>
-            <a target="_blank" href="{{ site.url }}{{ site.baseurl }}/about" class="button">
+   	    <a href="{{ site.url }}{{ site.baseurl }}/category" class="button">
+               category
+            </a>
+
+            <a href="{{ site.url }}{{ site.baseurl }}/about" class="button">
                about 
             </a>
             <a target="_blank" href="{{ site.url }}{{ site.baseurl }}/feed.xml" class="button">

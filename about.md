@@ -1,7 +1,6 @@
 ---
-layout: about
-title: About Aidil
-author: Aidil Putra
+layout: page-center
+title: About
 permalink: /about
 ---
 
