@@ -4,7 +4,7 @@ title: About
 permalink: /about
 ---
 
-Hi! My name is yourname!
+Hi! Nama saya Aidil Putra!
 
 > One shalt not speak shakespearean, or brocolli McDonalds
 

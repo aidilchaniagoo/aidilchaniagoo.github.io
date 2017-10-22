@@ -8,8 +8,6 @@ copyright		: aidil
 email			: aidil@ifup-eth0.com
 twitter_username	: aidil_chaniagoo
 github_username		: aidilchaniagoo
-instagram_username	: aidilchaniagoo
-googleplus_id		: test
 facebook_id		: chaniagoo1
 tracking_id		: test
 
@@ -49,5 +47,10 @@ defaults		:
             type:   "posts"
         values:
             layout: "post"
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
 
 exclude			: ['vendor', 'LICENSE', 'README.md']
