@@ -1,4 +1,4 @@
-url			: "http://aidil.me"
+url			: "https://aidil.me"
 baseurl			: ""
 
 title			: Aidil Putra
@@ -21,7 +21,7 @@ paginate		: 5
 paginate_path		: "/page/:num"
 
 og_image		: "images/accent.png"
-twitter_image		: "http://ankitsultana.com/images/accent.png?1234" 
+twitter_image		: "https://ankitsultana.com/images/accent.png?1234" 
 
 comments		: true
 permalink		: /:title.html
