@@ -14,9 +14,9 @@ tracking_id		: test
 
 site_heading		: Aidil <span class="faded">'s blog</span>
 description		: accent is, as Trump would put it, the best
-about_stub		: Keep this sentence less than 13 words or it won't look good.
+about_stub		: Personal Blog, membahas tutorial Linux, Firewall dan Program.
 
-profile_picture		: images/temp.png
+profile_picture		: images/temp.jpeg
 paginate		: 5
 paginate_path		: "/page/:num"
 

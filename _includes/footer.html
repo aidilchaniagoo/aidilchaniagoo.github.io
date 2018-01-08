@@ -4,15 +4,9 @@
     <hr />
     <div class="user-footer">
         <div class="copyright alignable pull-left">
-            {% if site.copyright %}
-		<a href="{{ site.url }}{{ site.baseurl }}/">
-                <h2> &copy;{{ site.copyright }}</h2>
-		</a>
-            {% else %}
-		<a href="{{ site.url }}{{ site.baseurl }}/">
-                <h2> &copy;{{ site.title }}</h2>
-		</a>
-            {% endif %}
+	    <a href="{{ site.url }}{{ site.baseurl }}/">
+                &copy;{{ site.title }}
+	    </a>
         </div>
         <div class="alignable pull-right">
             <a href="mailto:{{ site.email }}" class="button">
