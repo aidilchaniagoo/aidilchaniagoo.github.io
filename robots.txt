@@ -1,2 +1,5 @@
+---
+---
+
 User-agent: *
-Sitemap: {{ site.url }}/feed.xml
+Sitemap: https://aidil.me/feed.xml
