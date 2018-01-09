@@ -1,5 +1,2 @@
----
----
-
 User-agent: *
 Sitemap: https://aidil.me/feed.xml
