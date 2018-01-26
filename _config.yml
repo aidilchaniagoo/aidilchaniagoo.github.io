@@ -53,4 +53,4 @@ compress_html:
   comments: ["<!-- ", " -->"]
   endings: all
 
-exclude			: ['vendor', 'LICENSE', 'README.md']
+exclude			: ['vendor', 'LICENSE', 'README.md', 'CNAME']
