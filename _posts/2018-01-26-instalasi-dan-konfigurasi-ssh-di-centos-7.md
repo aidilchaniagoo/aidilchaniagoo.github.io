@@ -1,3 +1,8 @@
+---
+category: SSH
+---
+
+
 ssh merupakan aplikasi shell yang digunakan untuk membuat koneksi terenkripsi antar sistem sehingga koneksi menjadi lebih aman. SSH sendiri terdiri dari dua aplikasi berbeda yaitu aplikasi klien ssh dan aplikasi server sshd. Pada kebanyakan distro linux biasanya sudah menyertakan aplikasi klien SSH yang di sebut ssh-clients, namun aplikasi server sshd belum di sertakan. Aplikasi server sshd di butuhkan jika host atau komputer tersebut ingin dapat dihubungi oleh ssh klien, Berikut tutorial Instalasi dan Konfigurasi SSH di Centos 7.
 
 
