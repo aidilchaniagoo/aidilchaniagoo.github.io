@@ -1,53 +1,29 @@
-# accent
-
-#### [Demo & Documentation](http://ankitsultana.com/accent)
-
-### Installation
-
-I'd strongly recommend you to fork [accent](http://github.com/bk2dcradle/accent) and use the "upstream" strategy described on [this page](https://help.github.com/articles/fork-a-repo/) to
-keep accent up to date.
-
-If you don't want to do that, just clone [accent](http://github.com/bk2dcradle/accent) and use
-
-```bash
-bundle exec jekyll serve
-```
-in the root of the accent directory, or, simply [download](https://github.com/bk2dcradle/accent/archive/gh-pages.zip) accent.
-
-### Customization
-
-You can edit the variables in `_config.yml` as per your needs. Edit only the variables under the section marked *User Settings*.
-
-Most of the variables are self explanatory. Notes about few of the non obvious ones:
-
-1. You can change the **hex value** of the variable `$accent-color` in `_sass/_style.scss` to any color value that you want. This will change the accent of the theme.
-
-2. Set `intro` to `true` to reveal a short bio section on the index page.
-
-3. Setting `about_footer` to *true* or *false* will turn the `about` section at the bottom of every post to *on* or *off* respectively.
-
-4. `description` is the summary that will show up in places like facebook thumbnails,
-twitter cards and google search results.
-
-
-*Note:* Don't change any variable under *Build Settings*.
+## Personal Blog
+> This project has been modified from [Accent Theme](https://github.com/bk2dcradle/accent). and the search posts using [Super Search](https://github.com/chinchang/super-search)
 
 ---
 
-### Usage
+## Demo
+You can view this website at [aidil.me](https://aidil.me)
 
-* To create a new post, simply save the `.markdown` file in the `_posts` directory in the format.
+## Features
+* Sitemap and XML Feed
+* Pagination in homepage
+* Category
+* Realtime Search Posts (title & description) by query
+* Highlight pre
+* Next & Previous Post
+* Disqus comment
+* Share on social media
+* Google analytics
+* Author Profile
 
-```
-year-month-day-name-of-the-file.markdown
-```
+## Install & Configuration
+* Fork this repository
+* Edit site settings inside file of `_config.yml` 
+* Edit about yourself inside file of `about.md`
 
-* For Syntax highlighting, accent uses *Rouge* which is the default highlighter in Jekyll 3 and above. If you don't know how to highlight a code block, [refer](http://jekyllrb.com/docs/templates/).
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+* All files and content within `/images` `/_posts` may not be reused or published.
+* Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
 
-* To set up Google Analytics tracking id, just set the `tracking_id` variable in `_config.yml`.
-
----
-
-### License
-
-[MIT](https://github.com/bk2dcradle/accent/blob/gh-pages/LICENSE). Copyright &copy; [Ankit Sultana](http://twitter.com/AnkitSultana)

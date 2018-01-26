@@ -3,7 +3,7 @@ ssh merupakan aplikasi shell yang digunakan untuk membuat koneksi terenkripsi an
 
 ## instalasi
 Untuk melakukan Instalasi dan Konfigurasi SSH di Centos 7, cukup jalankan perintah berikut:
-{% highlight python %}
+{% highlight bash %}
 yum -y install openssh-server openssh-clients
 {% endhighlight %}
 
@@ -39,7 +39,7 @@ Direktif `CheckHostIP` akan memaksa openSSH untuk memeriksa apakah alamat IP hos
 
 ## Membuat kunci SSH
 OpenSSH menyediakan perkakas untuk membuat pasangan kunci publik dan pribadi, yaitu ssh-keygen. Berikut ini kita akan membuat kunci SSH dengan user `test`.
-{% highlight python %}
+{% highlight bash %}
 [test@ssh ~]$ ssh-keygen -t rsa
 {% endhighlight %}
 
@@ -76,7 +76,7 @@ Jawab semua pertanyaan tersebut dengan nilai yang di inginkan atau dapat juga me
 
 ## ssh-client
 Aplikasi klien ssh digunakan untuk menghubungi server SSH Untuk melakukan koneksi dengan sistem lain, jalan perintah berikut:
-{% highlight python %}
+{% highlight bash %}
  [test@ssh ~]$ ssh admin@example.com
 {% endhighlight %}
 
@@ -84,10 +84,9 @@ Aplikasi klien ssh digunakan untuk menghubungi server SSH Untuk melakukan koneks
 perintah di atas akan melakukan koneksi ke server `example.com` dengan nama pengguna `admin`. Jika baru pertama kali melakukan koneksi ke server `example.com`, maka akan muncul dialog untuk menyimpan kunci public dari server `example.com`. Untuk dapat melakukan koneksi ke server tersebut, kita harus menjawab pertanyaan tersebut dengan `yes` karena jika kita menjawab `no` maka koneksi ke server example.com akan segera di putus.
 
 
->Catatan
+>*Catatan:*
 >
 >ssh menyimpan kunci publik dari server yang pernah di hubungi ke dalam berkas .ssh/known_hosts.
->
 >ssh akan memberikan peringatan jika kunci yang disimpannya dan yang diterimanya tidak sama.
 
 
@@ -98,7 +97,7 @@ Otentikasi kunci publik hanya mengandalkan verifikasi pasangan kunci publik dan 
 Untuk melakukan koneksi ke server jauh menggunakan kunci publik yang telah kita buat tadi, syarat nya dalah kunci publik kita harus terdaftar pada file `authorized_keys` milik server jauh. jalankan perintah berikut untuk mengimport kunci publik kita ke file `authorized_keys` milik server jauh.
 
 
-{% highlight python %}
+{% highlight bash %}
 cat /home/test/.ssh/id_rsa.pub | ssh admin@example.com "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"
 {% endhighlight %}
 
