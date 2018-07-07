@@ -1,5 +1,5 @@
 url			: "https://aidil.me"
-baseurl		: ""
+baseurl			: ""
 
 title			: Aidil Putra
 author			: Aidil Putra
@@ -7,7 +7,7 @@ copyright		: aidil
 
 email			: putra@aidil.me
 twitter_username	: aidil_chaniagoo
-github_username	: aidilchaniagoo
+github_username		: aidilchaniagoo
 facebook_id		: chaniagoo1
 tracking_id		: UA-112182634-1
 
@@ -29,7 +29,8 @@ about_footer		: true
 
 
 markdown		: kramdown
-plugins			: ['jekyll-paginate']
+plugins_dir		: [jekyll-paginate]
+gems			: [jekyll-paginate]
 sass:
     style: compressed
     sass_dir: _sass
