@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://aidil.me/feed.xml
+Sitemap: https://www.aidil.me/feed.xml
