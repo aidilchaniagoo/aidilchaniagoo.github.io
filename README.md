@@ -18,6 +18,7 @@ You can view this website at [www.aidil.me](https://www.aidil.me)
 * Share on social media
 * Google analytics
 * Author Profile
+* Custom 404 Page Not Found by [Pure CSS 404 Error Page](https://codepen.io/sqfreakz/pen/GJRJOY)
 
 ## Install & Configuration
 * Fork this repository
