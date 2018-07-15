@@ -1,0 +1,11 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name: Nusa.ID
+  link: https://www.nusa.id
+  date: July 2017 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
+  job: Technical Support
+
+- name: JLM
+  link: https://www.jlm.net.id
+  date: May 2014 - July 2017
+  job: NOC

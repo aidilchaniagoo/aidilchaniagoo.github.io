@@ -1,0 +1,55 @@
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: Aidil Putra
+email: aidilchaniagoo@gmail.com
+description: Personal Blog, membahas tutorial Linux, Firewall dan Program.
+url: https://www.aidil.me/
+keywords: ["Linux", "Bash", "Centos"]
+
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          Asia/Jakarta
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /:year-:month-:day/:title
+exclude:           ['LICENSE', 'README.md']
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: Aidil Putra
+  avatar: leonids-logo.png
+  job: "Linux  Addict"
+  bio: "I’m a Technical Support, Using Fedora to work. Working for PT. Media Antar Nusa - Nusa.ID in Medan, Indonesia."
+  email: aidilchaniagoo@gmail.com
+  disqus-shortname: aidilchaniagoo
+  github: aidilchaniagoo
+  linkedin: aidil-putra-082423103
+  instagram: aidilchaniagoo
+  twitter: aidil_chaniagoo
+  facebook: chaniagoo1
+  google:
+    plus: #username
+    analytics: UA-112182634-1
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+
