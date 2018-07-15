@@ -7,7 +7,7 @@ tags: [Ansible]
 comments: true
 ---
 
-Pada kesempatan kali ini saya akan membahas bagaimana cara install `Ansible` di `Centos 7`. Kemudian apa sih `Ansible` itu ?? `Ansible` adalah  sebuah software atomasi yang digunakan untuk mengelola server dalam jumlah yang cukup banyak. `Ansible` pada umumnya bekerja seperti tools lain , semacam Chef, Puppet, hanya saja `Ansible` tidak membutuhkan agent. Ansible hanya bekerja cukup dengan koneksi SSH.
+Pada kesempatan kali ini saya akan membahas bagaimana cara install `Ansible` di `Centos 7`. Kemudian apa sih `Ansible` itu ?? `Ansible` adalah  sebuah software otomasi yang digunakan untuk mengelola server dalam jumlah yang cukup banyak. `Ansible` pada umumnya bekerja seperti tools lain , seperti Chef, Puppet, hanya saja `Ansible` tidak membutuhkan agent. Ansible hanya bekerja cukup dengan koneksi SSH.
 
 <!--more-->
 
