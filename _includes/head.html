@@ -20,7 +20,10 @@
   <meta name="theme-color" content="#f5f5f5">
 
   <!-- Bing -->
-  <meta name="msvalidate.01" content="{{ bing_verify }}" />
+  {% if site.owner.bing_verify %}
+  <meta name="msvalidate.01" content="{{ site.owner.bing_verify }}" />
+  {% endif %}
+  
 
   <!-- Twitter Tags -->
   <meta name="twitter:card" content="summary">
