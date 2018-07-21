@@ -17,7 +17,7 @@ Berikut ini adalah tutorial bagaimana cara menginstall powerline di `Fedora 28`.
  * **Powerline**: 2.6-7
 
 ## Persyaratan
-Akses root ke Sistem Operasi Centos
+Akses root ke Sistem Operasi
 
 ## Instalasi
 Jalankan perintah berikut untuk menginstall `Powerline` pada `Fedora 28`.
