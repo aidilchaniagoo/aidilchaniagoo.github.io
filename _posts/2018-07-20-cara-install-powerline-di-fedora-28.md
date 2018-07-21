@@ -36,15 +36,14 @@ Jalankan perintah berikut untuk memastikan powerline telah terinstall.
 
 ## Konfigurasi
 ### Powerline
-Selanjutnya, konfigurasi `Shell Bash` agar menggunakan `Powerline` secara default. Tambhakan Konfigurasi berikut pada berkas `~/.bashrc`
+Selanjutnya, konfigurasi `Shell Bash` agar menggunakan `Powerline` secara default. Tambahkan Konfigurasi berikut pada berkas `~/.bashrc`
 {% highlight bash %}                                                                                                                                
   if [ -f `which powerline-daemon` ]; then
   powerline-daemon -q
   POWERLINE_BASH_CONTINUATION=1
   POWERLINE_BASH_SELECT=1
   . /usr/share/powerline/bash/powerline.sh
-fi
- 
+  fi
 {% endhighlight %}
 
 ### Tmux
@@ -57,7 +56,7 @@ Tambahkan konfigurasi berikut ini pada berkas konfigurasi `~/.tmux.conf`:
 
 
 ### Vim
-jika kalian pengguna `Vim`, maka kamu beruntung. Karena ada plugin yang sangat powerfull yang tersedia untuk `Vim Powerline`
+jika kalian pengguna `Vim`, maka kalian beruntung. Karena ada plugin yang sangat powerfull yang tersedia untuk `Vim Powerline`
 Tambahkan konfigurasi berikut ini pada berkas konfigurasi `~/.vimrc`:
 {% highlight bash %}                                                                                                                                
    python3 from powerline.vim import setup as powerline_setup
