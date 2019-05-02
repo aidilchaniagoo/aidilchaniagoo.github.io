@@ -1,3 +1,3 @@
 git add -A
-git commit -m "Update Content"
+git commit -m "static content to cloudflare"
 git push
